@@ -1,0 +1,114 @@
+body {
+	font-family: "helvetica", sans-serif;
+}
+
+h1 {
+ 	border: 3px solid black;
+ 	width: 900px;
+ 	margin: 130px auto;
+ 	padding: 60px 30px;
+ 	letter-spacing: 6px;
+ 	text-align: center;
+}
+
+body header p {
+ 	font-size: 1.2em;
+ 	margin: 0 auto;
+ 	text-align: center;
+ 	letter-spacing: 1px;
+ 	color: crimson;
+}
+
+main p {
+	border: 8px solid white;
+	font-size: 1.2em;
+	margin: 960px auto;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+main ol {
+ 	line-height: 1.81em;
+ 	border: 8px solid white;
+	width: 960px;
+	margin: 60px auto;
+	padding: 30px;
+}
+
+li {
+ 	list-style-type: none;
+ 	font-size: 1.2em;
+ 	line-height: 1.41em;
+ 	/*text-align: justify;*/
+ 	word-wrap: break-word;
+ 	padding: 140px 0px;
+ 	word-spacing: 2px;
+ 	width: 195px;
+}
+
+strong {
+	letter-spacing: 3px;
+	color: crimson;
+}
+
+li:nth-of-type(even) {
+	margin: 0 auto;
+
+	/* Safari */
+	-webkit-transform: rotate(-25deg);
+
+	/* Firefox */
+	-moz-transform: rotate(-25deg);
+
+	/* IE */
+	-ms-transform: rotate(-25deg);
+
+	/* Opera */
+	-o-transform: rotate(-25deg);
+
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+
+li:nth-of-type(odd) {
+	margin: 0 auto;
+	padding: 30px;
+
+	/* Safari */
+	-webkit-transform: rotate(25deg);
+
+	/* Firefox */
+	-moz-transform: rotate(25deg);
+
+	/* IE */
+	-ms-transform: rotate(25deg);
+
+	/* Opera */
+	-o-transform: rotate(25deg);
+
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+
+footer {
+	border: 8px solid white;
+	width: 960px;
+	margin: 60px auto;
+	padding: 200px 0;
+	font-size: 0.8em;
+	font-weight: 400;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+a:link {
+	color: crimson;
+}
+
+a:visited {
+	color: crimson;
+}
