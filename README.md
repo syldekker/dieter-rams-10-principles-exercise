@@ -1,4 +1,3 @@
-<meta charset="utf-8">
 # RISD | Web Design | Assignment 3
 
 ## File List
